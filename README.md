@@ -68,3 +68,41 @@ Safe time:
 - When using multiple AND conditions, write the condition most likely to be false first
 - When using multiple OR conditions, put the condition most likely to be true first
 - create new index in table (some situation)
+
+
+## Distributed DB (DDBMS)
+-------------------------------------
+> Store DB over 2 or more independent sites
+
+- Advantages: faster, independent
+- Disadvantages: difficult, cost 
+
+- homogeneous: same DBMS, multiple instances
+- heterogeneous: different types of DBMSs
+
+### Evaluation
+Centralized -> global marketing -> rapid -> distributed access
+
+### Transparency
+- distribution: support by dictionary or catalog
+- transaction: transaction completed in all sites
+- performance: allow centralized DB, most cost-effective
+- Failure: in case of network failure
+
+### Design
+- Data fragmentation
+> divide into rows, or columns, or mixed
+
+- Data replication
+- Data allocation
+
+### types of operations
+- remote request: one site select, update
+- remote transaction: one site insert (invoice)
+- distributed request: different location table select, update
+- distributed transaction: different location table insert
+
+### DO-UNDO-REDO
+- DO: records 'before' and 'after' value in log
+- UNDO: reverses an operation
+- REDO: redo an operation, using DO portion in log
