@@ -2,6 +2,25 @@
 
 @(IT Studies)
 
+- DML: manage data (select, insert, delete...)
+- DDL: database structure (create, alter, drop...)
+
+## ERD
+-------------------------------------
+### Relationship Strength
+- Strong relationship: child primary key contain primary key of parent （实线）
+- Weak relationship: NO. child has its own primary key (虚线)
+- Weak Entity: Strong relational children (inherit a primary key from parent)
+- Composite Entity: M:N to 1:M - between 2 parents
+
+### Relationship Degree
+- Unary: 1 entity (recursive relationship)
+- Binary: 2 entities are associated
+- Ternary: 3 entities are associated
+
+### Inheritance
+One entity can be either A or B or ...  (Person --- Student/Employee)
+
 ## Normalization
 -------------------------------------
 ### 1NF
@@ -26,6 +45,7 @@
 
 ### Denormalization
 > Produces a lower normal form
+
 - increase processing speed
 - greater data redundancy
 
