@@ -2,6 +2,32 @@
 
 @(IT Studies)
 
+## Normalization
+-------------------------------------
+### 1NF
+-  each attribute contains only a single value from that domain
+-  no repetitive data
+-  need primary key
+
+### 2NF
+- no partial dependencies
+> every non-prime attribute is dependent on the whole of every candidate key.
+
+### 3NF
+- no transitive dependencies
+> all the attributes are not determined by any non-prime attributes
+
+### BCNF
+-  primary key doesn’t dependent on non-prime attribute
+
+### 4NF:
+- no multi-valued dependencies
+> no two or more independent multi-value about the same attribute occur in one table
+
+### Denormalization
+> Produces a lower normal form
+- increase processing speed
+- greater data redundancy
 
 ## Transaction Management
 -------------------------------------
@@ -102,7 +128,7 @@ Centralized -> global marketing -> rapid -> distributed access
 - distributed request: different location table select, update
 - distributed transaction: different location table insert
 
-### DO-UNDO-REDO
+### DO-UNDO-REDO protocol
 - DO: records 'before' and 'after' value in log
 - UNDO: reverses an operation
 - REDO: redo an operation, using DO portion in log
