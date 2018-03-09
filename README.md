@@ -152,3 +152,24 @@ Centralized -> global marketing -> rapid -> distributed access
 - DO: records 'before' and 'after' value in log
 - UNDO: reverses an operation
 - REDO: redo an operation, using DO portion in log
+
+
+## Business Intelligence
+-------------------------------------
+> Generates and presents information using tools to support business decision making
+
+- Data must be aggregated and summarized
+- very large databases
+
+### Star Schema -- snowflake
+Maps multidimensional decision support data into a relational database (M:1)
+Dimension tables: time, region, product....
+
+### Online Analytical Processing (OLAP)
+- Multidimensional data analysis techniques
+- Advanced database support
+- Easy-to-use end-user interfaces
+
+Group by:
+- Rollup: aggregate by different dimensions, exept for the last column
+- Cube: by listed columns
