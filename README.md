@@ -23,6 +23,8 @@ One entity can be either A or B or ...  (Person --- Student/Employee)
 
 ## Normalization
 -------------------------------------
+Draw dependency diagram
+
 ### 1NF
 -  each attribute contains only a single value from that domain
 -  no repetitive data
@@ -173,3 +175,16 @@ Dimension tables: time, region, product....
 Group by:
 - Rollup: aggregate by different dimensions, exept for the last column
 - Cube: by listed columns
+
+
+### DO-UNDO-REDO protocol
+- DO: records 'before' and 'after' value in log
+- UNDO: reverses an operation
+- REDO: redo an operation, using DO portion in log
+
+
+## Web Tech
+-------------------------------------
+ODBC (Open Database Connectivity)
+API (Application Programming Interface)
+XML (Extensible Markup Language)
