@@ -83,7 +83,7 @@ COMMIT;
 > Ensures serializability of transactions in a multiuser database environment
 
 #### Problems
-- Lost update: 
+- Lost update
 - Uncommitted data: T1 rollback after T2 accessed data
 - Inconsistent retrievals
 
@@ -115,7 +115,7 @@ parsing -> execution -> fetching
 Safe time:
 - When using multiple AND conditions, write the condition most likely to be false first
 - When using multiple OR conditions, put the condition most likely to be true first
-- create new index in table (some situation)
+- create new index in table (some situation, like sum() or avg()...)
 
 
 ## Distributed DB (DDBMS)
@@ -188,3 +188,12 @@ Group by:
 ODBC (Open Database Connectivity)
 API (Application Programming Interface)
 XML (Extensible Markup Language)
+
+
+## Security
+-------------------------------------
+Goals:
+- Confidentiality
+- Compliance
+- Integrity
+- Availability
