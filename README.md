@@ -197,3 +197,33 @@ Goals:
 - Compliance
 - Integrity
 - Availability
+
+
+## Spatial DB
+-------------------------------------
+> store and query data related to objects in space, including points
+
+entity view: space as an area filled with a set of discrete objects
+
+relationships: touch, intersect, contain, cover, disjoint, equal (topological operator)
+use: Intersect(C.Shape, R.Shape) = 1
+
+Trees:
+R, k-d, k-d-b
+
+
+
+## NoSQL DB
+-------------------------------------
+> for big data,  flexible & efficient
+
+### Why
+- schema-less: "Implicit" no tables, no relations! just write and run (application) code to make the change in the DB
+- flexible: easy to add new types of data
+- scalable
+- fast
+
+### Json
+Json (XML) -> enter objects、array of object
+- straightforward
+- 'BASE' property
