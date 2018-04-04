@@ -218,6 +218,10 @@ R, k-d, k-d-b
 > for big data,  flexible & efficient
 
 ### Why
+- improve programmer productivity by using a database that better matches an application's needs
+- improve data access performance via some combination of handling larger data volumes, reducing latency, and improving throughput
+
+### Trials
 - schema-less: "Implicit" no tables, no relations! just write and run (application) code to make the change in the DB
 - flexible: easy to add new types of data
 - scalable
@@ -227,3 +231,19 @@ R, k-d, k-d-b
 Json (XML) -> enter objects、array of object
 - straightforward
 - 'BASE' property
+
+### Types
+#### Key-Value
+- Redis, Amazon Dynamo
+- Memcached
+    - memcache->set(key,val)
+    - val=memcache->get(key)
+- lightweight (simple), schema-less, transaction-less.
+
+#### Column-based: Cassandra
+- Cassandra, HBase, BigTable
+- Column family -> column data; supercolumn family -> supercolumns -> column data.
+
+
+#### Document-based: MongoDB
+#### Graph-based: Seasame
