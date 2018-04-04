@@ -244,6 +244,14 @@ Json (XML) -> enter objects、array of object
 - Cassandra, HBase, BigTable
 - Column family -> column data; supercolumn family -> supercolumns -> column data.
 
+#### Document-based
+> a collection of documents (a table of rows)
 
-#### Document-based: MongoDB
-#### Graph-based: Seasame
+- MongoDB (using MapReduce)
+
+#### Graph-based
+> comprised of vertices(objects) and edges(relations)
+
+- Neo4J (using Cypher)
+- Triple store: stores (subject, relation, object) -> RDF
+    - "Bob knows Fred"
