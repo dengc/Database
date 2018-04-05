@@ -212,7 +212,6 @@ Trees:
 R, k-d, k-d-b
 
 
-
 ## NoSQL DB
 -------------------------------------
 > for big data,  flexible & efficient
@@ -255,3 +254,21 @@ Json (XML) -> enter objects、array of object
 - Neo4J (using Cypher)
 - Triple store: stores (subject, relation, object) -> RDF
     - "Bob knows Fred"
+
+
+## Big Data
+-------------------------------------
+> TMD (Too Much Data)
+
+### 3V
+- Variety
+- Velocity
+- Volume
+
+diverse types, changes often, and comes in large quantities.
+
+### Datafication
+> turn life into data
+
+"Once we datafy things, we can transform their purpose and turn the information into new forms of value."
+LoT: Internet of Things
