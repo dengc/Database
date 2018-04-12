@@ -272,3 +272,16 @@ diverse types, changes often, and comes in large quantities.
 
 "Once we datafy things, we can transform their purpose and turn the information into new forms of value."
 LoT: Internet of Things
+
+
+## Data Science
+-------------------------------------
+> statistics + software engineering => for data
+
+Questions for DS Job:
+https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2018/184
+
+### MapReduce
+1. Map: Split data into segments (key-value)
+2. Shuffle: data归类
+3. Reduce:  merges values associated with the same key
