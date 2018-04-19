@@ -282,6 +282,14 @@ Questions for DS Job:
 https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2018/184
 
 ### MapReduce
+> a programming model processing big data sets with a parallel, distributed algorithm on a cluster; by google
+
 1. Map: Split data into segments (key-value)
 2. Shuffle: data归类
 3. Reduce:  merges values associated with the same key
+
+### Hadoop
+> a collection of software providing framework for distributed storage, coming from GFS & MapReduce; written in Java
+
+Example: Pig, Hive, Oozie, Musketeer
+sometimes inside VM
