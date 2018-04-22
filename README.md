@@ -293,3 +293,45 @@ https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-
 
 Example: Pig, Hive, Oozie, Musketeer
 sometimes inside VM
+
+
+## Data Mining
+-------------------------------------
+> the science of extracting useful information from large datasets
+> - heart: discovering RELATIONSHIPS between parts of a dataset.
+
+And, Machine Learning = training algorithms for discovering relationships and use result for new data
+
+Classification: labeling
+Clustering: group
+Regression: coupling
+Rule extraction: relate
+
+### Decision Tree
+
+### K-means clustering
+start with 'n' random locations ('centroids') in/near the dataset; assign each input point (our data) to the closest centroid; compute new centroids (from our data); iterate (till convergence is reached).
+
+### Support Vector Machine (SVM)
+> partitions data (classifies) them into TWO sets - uses a 'slicing' hyperplane
+
+### A Priori
+> look for hidden relationships
+
+- support(A): m/n => m A in a list of n
+- confidence(A->B): => support(A,B) / support(A)
+
+### kNN (k Nearest Neighbors)
+The new point's type will be the type of the majority of its 'k' neighbors
+
+
+
+## TensorFlow
+-------------------------------------
+> a dataflow processor where ALL data is in the form of 'tensors'
+
+express neural networks as graphs (flexible)
+
+### Docker
+> a lightweight alternative to running a VM such as VirtualBox or VMWare
+
