@@ -335,3 +335,28 @@ express neural networks as graphs (flexible)
 ### Docker
 > a lightweight alternative to running a VM such as VirtualBox or VMWare
 
+
+## Machine Learning
+-------------------------------------
+> can learn from data to optimize a performance function
+
+### Types
+- Supervised learning: labeled, know target
+- Unsupervised learning: unlabeled, clustering
+- Semi-supervised learning: both labeled and unlabeled
+- Reinforcement learning
+    -  agent - the learner or decision maker 
+    -  environment - everything the agent interacts with 
+    -  actions - what the agent can do
+
+### Algorithms
+Linear Regression
+Logistic Regression
+Decision Trees
+SVM (Support vector machine)
+Naive Bayes
+KNN
+K-Means Clustering
+Random Forest
+Gradient Boost, Adaboost
+Neural nets ("NN, ANN, DNN, CNN, RNN..")
