@@ -350,13 +350,31 @@ express neural networks as graphs (flexible)
     -  actions - what the agent can do
 
 ### Algorithms
-Linear Regression
-Logistic Regression
-Decision Trees
-SVM (Support vector machine)
-Naive Bayes
-KNN
-K-Means Clustering
-Random Forest
-Gradient Boost, Adaboost
-Neural nets ("NN, ANN, DNN, CNN, RNN..")
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- SVM (Support vector machine)
+- Naive Bayes
+- KNN
+- K-Means Clustering
+- Random Forest
+- Gradient Boost, Adaboost
+- Neural nets ("NN, ANN, DNN, CNN, RNN..")
+
+
+## R
+-------------------------------------
+> a statistics programming language
+
+- statistics operations, graphics output., rich I/O
+- R particularly shines when it comes to operations on vectors
+``` r
+x <- c(10.4, 5.6, 3.1, 6.4, 21.7)
+y <- c(x, 0, x)
+v <- y + 1
+m <- 1:30
+n <- seq(2,5)
+temp <- x>13
+```
+
+
