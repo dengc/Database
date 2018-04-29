@@ -362,6 +362,19 @@ express neural networks as graphs (flexible)
 - Neural nets ("NN, ANN, DNN, CNN, RNN..")
 
 
+## Visualization of Data
+-------------------------------------
+> graphical depictions of data: turning data into images/graphics - to obtain BETTER INSIGHT into the data.
+
+### Types
+- Charts: pie charts, histogram / bar-chart
+- Tables
+- Graphs: Bubble plots (double variables)
+- Geospatial maps: Starbucks Locations, crime, weather...
+- Networks (show relationship)
+
+Help AR & VR
+
 ## R
 -------------------------------------
 > a statistics programming language
@@ -375,6 +388,7 @@ v <- y + 1
 m <- 1:30
 n <- seq(2,5)
 temp <- x>13
+x <- readOGR(dsn=".", layer="starter")
+y <- tmaptools::read_osm(bbox(x))
+tm_shape(y) + tm_raster() + tm_shape(x) + tm_dots(size = 2.0, col = "red")
 ```
-
-
