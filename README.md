@@ -208,9 +208,13 @@ entity view: space as an area filled with a set of discrete objects
 relationships: touch, intersect, contain, cover, disjoint, equal (topological operator)
 use: Intersect(C.Shape, R.Shape) = 1
 
-Trees:
+Trees (create spatial indices):
 R, k-d, k-d-b
 
+KML encode spatial data:
+```htmlbars
+<Point><coordinates>longitude, latitude</coordinates></Point>
+```
 
 ## NoSQL DB
 -------------------------------------
@@ -278,14 +282,18 @@ LoT: Internet of Things
 -------------------------------------
 > statistics + software engineering => for data
 
+- Data Science Life Circle:
+Question -> Data - Methods - Inference - Presentation - Answer
+    -   Methods: Data mining, ML, Classificaiton, Regression
+
 Questions for DS Job:
 https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2018/184
 
 ### MapReduce
-> a programming model processing big data sets with a parallel, distributed algorithm on a cluster; by google
+> a programming model processing big data sets with a parallel, distributed algorithm on a cluster; by Google
 
 1. Map: Split data into segments (key-value)
-2. Shuffle: data归类
+2. Shuffle: data归类-> consolidates its values into a list
 3. Reduce:  merges values associated with the same key
 
 ### Hadoop
@@ -392,3 +400,28 @@ x <- readOGR(dsn=".", layer="starter")
 y <- tmaptools::read_osm(bbox(x))
 tm_shape(y) + tm_raster() + tm_shape(x) + tm_dots(size = 2.0, col = "red")
 ```
+
+
+## 题目
+-------------------------------------
+- Spatial queries are performed using a two step filter+refine process, and MBRs help in the filtering step (which acts as a preprocessor for refining).
+- Ensemble Method in ML: To minimize or eliminate any variances or biases between the individual learners in the ensemble.
+- In R, data frame can hold a table of data.
+- Commodity machine can be used for both map and reduce tasks
+- Map task must be completed before Reduce task starts.
+- ML system: Raw data > Pre processing > Divide > Training > Model > Evaluation
+- 4 different categories of ML:
+    - classification: labeling the data
+    - clustering: grouping data not based on pre-defined labels, but based on their similarity
+    - regression: couple the data with a continuous result values
+    - rule extraction:  find informative relationships within our data
+- overfitting: major problem that any of the models created by these algorithms might suffer from
+- Interactivity of Viz:
+    -   can click to see history of XXX
+    -   put a timeline to see how XXX changes
+    -   check boxes for XXX
+- sigmoid is used in
+    - Neural nets – to determine the output value of a neuron
+    - logistic regression – to classify the incoming (unknown) data point into one of two classes, depending on the sigmoid function's value being <0.5 or >0.5
+- BSP: alternative to map reduce
+- YARN capabilities: better scalability, graph processing
