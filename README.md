@@ -246,6 +246,7 @@ Json (XML) -> enter objects、array of object
 #### Column-based: Cassandra
 - Cassandra, HBase, BigTable
 - Column family -> column data; supercolumn family -> supercolumns -> column data.
+- Column families (groups of columns) that are accessed more frequently can be kept in a separate file, and non-essential columns in another file.
 
 #### Document-based
 > a collection of documents (a table of rows)
@@ -425,3 +426,16 @@ tm_shape(y) + tm_raster() + tm_shape(x) + tm_dots(size = 2.0, col = "red")
     - logistic regression – to classify the incoming (unknown) data point into one of two classes, depending on the sigmoid function's value being <0.5 or >0.5
 - BSP: alternative to map reduce
 - YARN capabilities: better scalability, graph processing
+- Choropleth map shows spatially-varying data
+- Big data generated:
+    -  People: buying habits (eg. at Ralph's), clickstreams (eg. at Amazon) 
+    -  Machines/sensors: FitBit device, road sensors
+-  Why we have big data: Because now we have the perfect storm of data storage (disk space is cheap!) and virtually unlimited computing power (via the 'cloud'), and Hadoop/MapReduce for efficient processing.
+-  Hadoop/YARN allows mapping and reducing, ie. parallel processing of data analysis computations.
+-  make Data Viz better: color, interactivity, animation, VR
+-  Neural neworks are typically organized in layers.
+-  R types: vector, data frame
+-  Pig and TF help carry out dataflow computation
+-  Spark addons: Spark SQL, Spark Streaming
+-  Spark makes Big Data real-time and interactive
+-  
