@@ -438,4 +438,7 @@ tm_shape(y) + tm_raster() + tm_shape(x) + tm_dots(size = 2.0, col = "red")
 -  Pig and TF help carry out dataflow computation
 -  Spark addons: Spark SQL, Spark Streaming
 -  Spark makes Big Data real-time and interactive
--  
+-  trellis view: Multivariate data visualization
+-  regression-related alternatives: non-linear regression, regression tree
+-  why ML is popular:  Layers of neurons with nonlinear (eg. sigmoid) activation functions makes it possible to approximate any smooth, continuous signal with low- enough error
+-  optional ‘Combine’ step in MapReduce: A combiner performs local reduction, where it collates values of multiple identical keys output by a mapper
