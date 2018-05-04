@@ -431,7 +431,7 @@ tm_shape(y) + tm_raster() + tm_shape(x) + tm_dots(size = 2.0, col = "red")
     -  People: buying habits (eg. at Ralph's), clickstreams (eg. at Amazon) 
     -  Machines/sensors: FitBit device, road sensors
 -  Why we have big data: Because now we have the perfect storm of data storage (disk space is cheap!) and virtually unlimited computing power (via the 'cloud'), and Hadoop/MapReduce for efficient processing.
--  Hadoop/YARN allows mapping and reducing, ie. parallel processing of data analysis computations.
+-  Hadoop/YARN allows mapping and reducing, ie. <B> parallel</B> processing of data analysis computations.
 -  make Data Viz better: color, interactivity, animation, VR
 -  Neural neworks are typically organized in layers.
 -  R types: vector, data frame
